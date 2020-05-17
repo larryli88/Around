@@ -254,6 +254,7 @@ func saveToES(post *Post, index string, id string) error {
 }
 
 func main() {
+
 	fmt.Println("started-service")
 	http.HandleFunc("/post", handlerPost)
 	http.HandleFunc("/cluster", handlerCluster)
